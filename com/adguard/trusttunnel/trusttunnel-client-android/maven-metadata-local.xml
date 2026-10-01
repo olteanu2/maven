@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.adguard.trusttunnel</groupId>
+  <artifactId>trusttunnel-client-android</artifactId>
+  <versioning>
+    <latest>1.3.0-app-routing.1</latest>
+    <release>1.3.0-app-routing.1</release>
+    <versions>
+      <version>1.3.0-alpha.1-5-g1fc85997</version>
+      <version>1.1.5-rc.6-2-g9e7e6bb6</version>
+      <version>1.3.0-app-routing.1</version>
+    </versions>
+    <lastUpdated>20260930151713</lastUpdated>
+  </versioning>
+</metadata>

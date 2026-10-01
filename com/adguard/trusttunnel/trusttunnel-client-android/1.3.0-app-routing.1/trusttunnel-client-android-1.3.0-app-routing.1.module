@@ -1,0 +1,148 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.adguard.trusttunnel",
+    "module": "trusttunnel-client-android",
+    "version": "1.3.0-app-routing.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "trusttunnel-client-android-1.3.0-app-routing.1.aar",
+          "url": "trusttunnel-client-android-1.3.0-app-routing.1.aar",
+          "size": 16206569,
+          "sha512": "a8b573f5f1bb128e5e4e3e780af5a1e576fb511688a630e223669d3a558bd4cd62149228d64764199a2b747abee58b607b50e5b3c13052d6bd621707c468ace8",
+          "sha256": "5120c264ce2887a0f1626fdb943c4b3f49c96f4bd6b5edd12a7c4a20595126c8",
+          "sha1": "808a8a2a24a9fd28ba519dacbdd8bef96e3aae07",
+          "md5": "5f012de56ccdfad5c6d0c039f0317aae"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.25"
+          }
+        },
+        {
+          "group": "com.github.tony19",
+          "module": "logback-android",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava3",
+          "module": "rxandroid",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "com.akuleshov7",
+          "module": "ktoml-core",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "trusttunnel-client-android-1.3.0-app-routing.1.aar",
+          "url": "trusttunnel-client-android-1.3.0-app-routing.1.aar",
+          "size": 16206569,
+          "sha512": "a8b573f5f1bb128e5e4e3e780af5a1e576fb511688a630e223669d3a558bd4cd62149228d64764199a2b747abee58b607b50e5b3c13052d6bd621707c468ace8",
+          "sha256": "5120c264ce2887a0f1626fdb943c4b3f49c96f4bd6b5edd12a7c4a20595126c8",
+          "sha1": "808a8a2a24a9fd28ba519dacbdd8bef96e3aae07",
+          "md5": "5f012de56ccdfad5c6d0c039f0317aae"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "trusttunnel-client-android-1.3.0-app-routing.1-sources.jar",
+          "url": "trusttunnel-client-android-1.3.0-app-routing.1-sources.jar",
+          "size": 44141,
+          "sha512": "52574ea8efd90172b7a92c0029469d838e9c73a6e407326feda21e6ee44e4c9482dd9b57b01cbc7dec7388ee804ef36907e3527b994ff8a63cb30aee315bd08f",
+          "sha256": "cf154f6f01d400f39de8f2479abc5cd6d9ecfa46b33752de856aa28b3ef3b65a",
+          "sha1": "3fbb642209347b091a074e33dd82da0c5333e806",
+          "md5": "4121e84aceadaa8e1dcb9b859a3f506e"
+        }
+      ]
+    }
+  ]
+}
